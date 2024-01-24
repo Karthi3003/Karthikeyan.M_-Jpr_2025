@@ -1,0 +1,7 @@
+n=int(input())
+def reverseNum(n):
+    n=str(n)
+    n=n[::-1]         #reverse indexing
+    n=int(n)
+    return n
+print(reverseNum(n))
